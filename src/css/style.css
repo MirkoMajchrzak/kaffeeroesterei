@@ -1,0 +1,829 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff; }
+
+a {
+  text-decoration: none; }
+
+.h1__m {
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 75px;
+  color: #fff; }
+  @media (min-width: 992px) {
+    .h1__m {
+      font-size: 96px;
+      line-height: 110px; } }
+
+.h2__m {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 34px; }
+  @media (min-width: 992px) {
+    .h2__m {
+      font-size: 48px;
+      line-height: 56.25px; } }
+  .h2__m--2 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 34px; }
+    @media (min-width: 992px) {
+      .h2__m--2 {
+        font-size: 48px;
+        line-height: 56.25px; } }
+  .h2__m--imprint {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 34px;
+    margin-bottom: 30px; }
+
+.h3__m {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 37.5px; }
+
+.subhead__m {
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px; }
+
+.link-header {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline 1px solid #fff;
+  margin-right: 69px; }
+  .link-header:active:hover {
+    text-decoration: none; }
+
+.link-button {
+  color: #fff; }
+
+.link-footer {
+  color: #fff;
+  line-height: 18px; }
+
+.link-map {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: right;
+  text-decoration: none; }
+
+.article {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px; }
+
+.article-white {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px; }
+
+.body-text-m {
+  font-size: 18px;
+  line-height: 18px; }
+  @media (min-width: 568px) {
+    .body-text-m {
+      line-height: 21px; } }
+  @media (min-width: 992px) {
+    .body-text-m {
+      line-height: 24px; } }
+
+.footer-heading-m {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px; }
+
+.roesterei {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 992px) {
+    .roesterei {
+      display: flex;
+      justify-content: center;
+      margin-left: 102px;
+      margin-right: 102px;
+      margin-top: 120px; } }
+  @media (min-width: 992px) {
+    .roesterei__flex_content {
+      width: 50%;
+      max-width: 500px;
+      margin-right: 100px; } }
+  .roesterei__heading {
+    margin-top: 60px; }
+    .roesterei__heading__cafe {
+      margin-top: 60px; }
+  .roesterei__article {
+    margin-top: 20px; }
+    .roesterei__article__cafe {
+      margin-top: 20px; }
+  .roesterei__wo {
+    margin-top: 20px;
+    display: flex; }
+    .roesterei__wo--besuchen {
+      width: 156px;
+      height: 32px; }
+    .roesterei__wo--oeffnung {
+      width: 156px;
+      height: 32px; }
+  .roesterei__img {
+    margin-top: 40px; }
+    @media (min-width: 992px) {
+      .roesterei__img {
+        margin-top: 70px; } }
+    .roesterei__img--img-r-cafe {
+      height: auto;
+      width: 75%;
+      max-width: 400px;
+      margin-left: auto;
+      display: block; }
+  .roesterei__img-herkunft-l--img-l-herkunft {
+    height: auto;
+    width: 75%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    display: block; }
+
+.gebaeck {
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 992px) {
+    .gebaeck {
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 120px;
+      max-width: 410px; } }
+  @media (min-width: 992px) {
+    .gebaeck__biofair {
+      order: 2; } }
+  @media (min-width: 992px) {
+    .gebaeck__flex_content {
+      width: 50%;
+      max-width: 500px;
+      margin-right: 100px; } }
+  .gebaeck__heading {
+    margin-top: 60px; }
+    .gebaeck__heading__cafe {
+      margin-top: 60px; }
+      .gebaeck__heading__cafe .h2__m {
+        width: 15ch; }
+  .gebaeck__article {
+    margin-top: 20px; }
+    .gebaeck__article__cafe {
+      margin-top: 20px; }
+  .gebaeck__wo {
+    margin-top: 20px;
+    display: flex; }
+    .gebaeck__wo--besuchen {
+      width: 156px;
+      height: 32px; }
+    .gebaeck__wo--oeffnung {
+      width: 156px;
+      height: 32px; }
+
+.kaffeegallerie__box {
+  margin-top: 48px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 60px; }
+
+.kaffeegallerie__img {
+  height: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px; }
+  .kaffeegallerie__img--img1 {
+    width: 45vw; }
+  .kaffeegallerie__img--img2 {
+    width: 45vw; }
+  .kaffeegallerie__img--img3 {
+    width: 45vw; }
+  .kaffeegallerie__img--img4 {
+    width: 45vw; }
+  .kaffeegallerie__img--img5 {
+    width: 45vw; }
+  .kaffeegallerie__img--img6 {
+    width: 45vw; }
+  .kaffeegallerie__img--img7 {
+    width: 45vw; }
+  .kaffeegallerie__img--img8 {
+    width: 45vw; }
+
+.footer {
+  background-color: #000;
+  padding-bottom: 30px;
+  /* &__last {
+        margin-top: 20px;
+        margin-left: 24px;
+        display: flex;
+
+
+        
+        
+
+        &--impressum {
+            margin-bottom: 50px;
+            width: 156px;
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+
+    
+        }
+    
+        &--links {
+            margin-bottom: 50px;
+            width: 156px;
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+            
+            
+    
+        }
+    
+    }*/ }
+  .footer__icon {
+    padding-top: 60px;
+    margin-left: 24px; }
+    @media (min-width: 992px) {
+      .footer__icon {
+        margin-left: 100px; } }
+    .footer__icon--image {
+      width: 35px;
+      height: auto; }
+      @media (min-width: 590px) {
+        .footer__icon--image {
+          width: 70px; } }
+  .footer__heading {
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 24px; }
+    @media (min-width: 992px) {
+      .footer__heading {
+        margin-left: 100px; } }
+  .footer__subhead {
+    color: #fff;
+    margin-left: 24px; }
+    @media (min-width: 992px) {
+      .footer__subhead {
+        margin-left: 100px; } }
+  .footer__wo {
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    @media (min-width: 992px) {
+      .footer__wo {
+        margin-left: 100px;
+        margin-right: 100px; } }
+    .footer__wo--besuchen {
+      margin-bottom: 20px;
+      width: 18ch; }
+      @media (min-width: 568px) {
+        .footer__wo--besuchen {
+          order: 1; } }
+    .footer__wo--oeffnung {
+      margin-bottom: 20px;
+      width: 18ch; }
+      @media (min-width: 568px) {
+        .footer__wo--oeffnung {
+          order: 2; } }
+    .footer__wo--impressum {
+      margin-bottom: 50px;
+      width: 18ch;
+      display: flex;
+      flex-direction: column; }
+      @media (min-width: 473px) {
+        .footer__wo--impressum {
+          order: 4;
+          flex-direction: row;
+          gap: 20px; } }
+      @media (min-width: 590px) {
+        .footer__wo--impressum {
+          order: 4;
+          flex-direction: column;
+          gap: 0; } }
+    .footer__wo--links {
+      margin-bottom: 50px;
+      width: 18ch;
+      display: flex;
+      flex-direction: column; }
+      @media (min-width: 568px) {
+        .footer__wo--links {
+          order: 3; } }
+      @media (min-width: 590px) {
+        .footer__wo--links {
+          order: 3;
+          width: auto; } }
+
+.herkunft {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 992px) {
+    .herkunft {
+      margin-left: 102px;
+      margin-right: 102px;
+      margin-top: 120px; } }
+  .herkunft .h2__m {
+    margin-top: 60px;
+    width: 13ch; }
+    @media (min-width: 568px) {
+      .herkunft .h2__m {
+        margin-top: 120px;
+        width: auto;
+        text-align: center; } }
+    .herkunft .h2__m--2 {
+      margin-top: 60px; }
+  @media (min-width: 992px) {
+    .herkunft__biofair {
+      order: 2; } }
+  @media (min-width: 992px) {
+    .herkunft__flex_content {
+      width: 50%;
+      max-width: 500px;
+      margin-right: 100px; } }
+  .herkunft__heading {
+    margin-top: 60px; }
+    .herkunft__heading__cafe {
+      margin-top: 60px; }
+    .herkunft__heading__herkunft {
+      margin-top: 60px;
+      margin-right: 96px; }
+  .herkunft__article {
+    margin-top: 20px; }
+    .herkunft__article__ursprung {
+      margin-top: 20px; }
+      @media (min-width: 568px) {
+        .herkunft__article__ursprung {
+          margin-top: 35px;
+          margin-left: 25%;
+          margin-right: 25%; } }
+    .herkunft__article__anbaugebiete {
+      margin-top: 20px; }
+  .herkunft__img {
+    margin-top: 40px; }
+    @media (min-width: 992px) {
+      .herkunft__img {
+        margin-top: 70px; } }
+    .herkunft__img--img-r-herkunft {
+      height: auto;
+      width: 75%;
+      max-width: 400px;
+      margin-left: auto;
+      display: block; }
+    .herkunft__img--img-l {
+      height: auto;
+      width: 75%;
+      margin-right: auto;
+      display: block; }
+      @media (min-width: 992px) {
+        .herkunft__img--img-l {
+          order: 1;
+          height: auto;
+          width: 90%; } }
+  .herkunft__img-herkunft-l--img-l-herkunft {
+    height: auto;
+    width: 75%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    display: block; }
+  .herkunft__video-herkunft {
+    margin-top: 56px; }
+
+.header__background {
+  position: relative;
+  height: 75vh;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/FEND-Coffee-latte-art-3.jpg);
+  background-size: cover;
+  background-position: center; }
+  @media (min-width: 568px) {
+    .header__background {
+      height: 65vh; } }
+  .header__background__cafe {
+    position: relative;
+    height: 41vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/FEND-Coffee-shop.jpg);
+    background-size: cover;
+    background-position: center; }
+  .header__background__herkunft {
+    position: relative;
+    height: 41vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/FEND-Coffee-beans-hand-2.jpg);
+    background-size: cover;
+    background-position: center; }
+
+.header__navbar {
+  position: relative;
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-right: 24px;
+  display: flex;
+  justify-content: space-between; }
+  @media (min-width: 992px) {
+    .header__navbar {
+      display: none; } }
+
+.header__navbar_desktop {
+  display: none; }
+  @media (min-width: 992px) {
+    .header__navbar_desktop {
+      display: flex;
+      padding-left: 102px;
+      padding-right: 102px;
+      padding-top: 10px;
+      flex-direction: row;
+      justify-content: space-between; } }
+  .header__navbar_desktop--menu {
+    margin-top: 7px; }
+
+.header__title {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.header__blindfield {
+  height: 35px; }
+
+.header__button {
+  color: #fff;
+  width: 163px;
+  height: 48px;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 60px; }
+  .header__button:hover {
+    background-color: #3a3734; }
+  .header__button:active {
+    background-color: #d7be9d; }
+
+.img_logo {
+  height: 35px; }
+
+.img_menu {
+  margin-top: 5px;
+  height: 13px; }
+
+.main {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 992px) {
+    .main {
+      display: flex;
+      justify-content: center;
+      margin-left: 102px;
+      margin-right: 102px;
+      margin-top: 120px; } }
+  @media (min-width: 992px) {
+    .main__biofair {
+      order: 2; } }
+  @media (min-width: 992px) {
+    .main__flex_content {
+      width: 50%;
+      max-width: 500px;
+      margin-right: 100px; } }
+  .main__heading {
+    margin-top: 60px; }
+    .main__heading__cafe {
+      margin-top: 60px; }
+    .main__heading__herkunft {
+      margin-top: 60px;
+      margin-right: 96px; }
+  .main__article {
+    margin-top: 20px; }
+    .main__article__cafe {
+      margin-top: 20px; }
+  .main__wo {
+    margin-top: 20px;
+    display: flex; }
+    .main__wo--besuchen {
+      width: 156px;
+      height: 32px; }
+    .main__wo--oeffnung {
+      width: 156px;
+      height: 32px; }
+  .main__img {
+    margin-top: 40px; }
+    @media (min-width: 992px) {
+      .main__img {
+        margin-top: 70px; } }
+    .main__img--img-r {
+      height: auto;
+      width: 75%;
+      max-width: 400px;
+      margin-left: auto;
+      display: block; }
+      @media (min-width: 992px) {
+        .main__img--img-r {
+          order: 2;
+          height: auto;
+          width: 80%; } }
+    .main__img--img-r-cafe {
+      height: auto;
+      width: 75%;
+      max-width: 400px;
+      margin-left: auto;
+      display: block; }
+    .main__img--img-r-herkunft {
+      height: auto;
+      width: 75%;
+      max-width: 400px;
+      margin-left: auto;
+      display: block; }
+    .main__img--img-l {
+      height: auto;
+      width: 75%;
+      margin-right: auto;
+      display: block; }
+      @media (min-width: 992px) {
+        .main__img--img-l {
+          order: 1;
+          height: auto;
+          width: 90%; } }
+  .main__img-herkunft-l--img-l-herkunft {
+    height: auto;
+    width: 75%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    display: block; }
+  .main__video-herkunft {
+    margin-top: 56px; }
+
+.kaffeesorten {
+  margin-top: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 60px;
+  background-color: #1A1A1A; }
+  @media (min-width: 992px) {
+    .kaffeesorten {
+      padding-left: 100px;
+      padding-right: 100px; } }
+  .kaffeesorten .h2__m {
+    color: #fff; }
+    @media (min-width: 435px) {
+      .kaffeesorten .h2__m {
+        width: 16ch; } }
+    @media (min-width: 1200px) {
+      .kaffeesorten .h2__m {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; } }
+  .kaffeesorten .flex-container-product {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; }
+    @media (min-width: 1200px) {
+      .kaffeesorten .flex-container-product {
+        margin-left: auto;
+        margin-right: auto; } }
+  .kaffeesorten .product {
+    width: calc((100% - 20px)/2);
+    margin-top: 40px; }
+    @media (min-width: 568px) {
+      .kaffeesorten .product {
+        width: calc((100% - 60px) / 4); } }
+    .kaffeesorten .product__image-container {
+      background-color: #fff;
+      width: 100%; }
+    .kaffeesorten .product__image {
+      width: 100%; }
+    .kaffeesorten .product .subhead__m {
+      margin-top: 10px; }
+    .kaffeesorten .product .bodytext__m {
+      color: #fff;
+      margin-bottom: 5px; }
+
+.kaffeeangebot__button-kaffeesorten {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.kaffeeangebot__button-kaffeesorten--btn {
+  color: #fff;
+  width: 182px;
+  height: 48px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.woher a {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px; }
+  @media (min-width: 568px) {
+    .woher a {
+      margin-top: 35px; } }
+
+.woher__background {
+  position: relative;
+  height: 332px;
+  width: auto;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/FEND-Coffee-bags-2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.woher__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .woher__content--header {
+    margin-top: 87px;
+    color: #fff;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center; }
+    @media (min-width: 568px) {
+      .woher__content--header {
+        margin-top: 60px;
+        margin-bottom: 25px; } }
+  .woher__content--article {
+    width: 241px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center; }
+
+.dasistdrin {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 590px) {
+    .dasistdrin__main {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 125px; } }
+  .dasistdrin__product-img {
+    display: flex;
+    justify-content: center; }
+  .dasistdrin__did-product-img {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto; }
+    @media (min-width: 590px) {
+      .dasistdrin__did-product-img {
+        margin-left: 0;
+        margin-right: 0;
+        width: 80%;
+        height: auto; } }
+  .dasistdrin__icons-text {
+    display: flex;
+    justify-content: space-between; }
+    @media (min-width: 590px) {
+      .dasistdrin__icons-text {
+        display: block; } }
+  .dasistdrin__inhalt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+    @media (min-width: 590px) {
+      .dasistdrin__inhalt {
+        flex-direction: row;
+        align-items: flex-end;
+        margin-bottom: 25px; } }
+    .dasistdrin__inhalt--icon {
+      margin-top: 44px; }
+      @media (min-width: 590px) {
+        .dasistdrin__inhalt--icon {
+          margin-right: 20px; } }
+  .dasistdrin__inhaltbutton {
+    display: none; }
+    @media (min-width: 590px) {
+      .dasistdrin__inhaltbutton {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .dasistdrin__inhaltbutton--btn {
+          color: #fff;
+          width: 163px;
+          height: 48px;
+          background-color: #1a1a1a;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .dasistdrin__inhaltbutton--btn:hover {
+            background-color: #3a3734; }
+          .dasistdrin__inhaltbutton--btn:active {
+            background-color: #d7be9d; } }
+  .dasistdrin .h2__m {
+    margin-top: 60px;
+    text-align: center; }
+  .dasistdrin .body-text-m {
+    margin-top: 24px;
+    width: min-content;
+    text-align: center; }
+  .dasistdrin__button {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .dasistdrin__button--btn {
+      color: #fff;
+      width: 163px;
+      height: 48px;
+      background-color: #1a1a1a;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .dasistdrin__button--btn:hover {
+        background-color: #3a3734; }
+      .dasistdrin__button--btn:active {
+        background-color: #d7be9d; }
+    @media (min-width: 590px) {
+      .dasistdrin__button {
+        display: none; } }
+
+.imprint__textbox_first {
+  margin-top: 133px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 38px; }
+
+.imprint__textbox_follow {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 38px; }
+
+.imprint__textbox_follow_last {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 100px; }
+
+.li__imprint {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.location__heading {
+  margin-top: 60px;
+  margin-left: 24px;
+  margin-bottom: 35px; }
+
+.location__map {
+  height: 320px; }
+  .location__map--iframe {
+    height: 90%;
+    width: 100%;
+    border: 1px solid black; }
+
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+$breakpoint arguement choices:
+- tab-port
+- tab-land
+- desktop
+
+*/

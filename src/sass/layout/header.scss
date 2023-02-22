@@ -1,0 +1,136 @@
+.header {
+
+    
+    &__background {
+        position: relative;
+        height: 75vh;
+        background-image: linear-gradient(to right bottom,
+        rgba(#000, 0.3),
+        rgba(#000, 0.3)), url(../images/FEND-Coffee-latte-art-3.jpg);
+        background-size: cover;
+        background-position: center;
+
+        @media (min-width: 568px) {
+            height: 65vh;
+        }
+        
+        &__cafe {
+            position: relative;
+            height: 41vh;
+            background-image: linear-gradient(to right bottom,
+            rgba(#000, 0.3),
+            rgba(#000, 0.3)), url(../images/FEND-Coffee-shop.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        &__herkunft {
+            position: relative;
+            height: 41vh;
+            background-image: linear-gradient(to right bottom,
+            rgba(#000, 0.3),
+            rgba(#000, 0.3)), url(../images/FEND-Coffee-beans-hand-2.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+}
+
+    &__navbar {
+        position: relative;
+        padding-left: 24px;
+        padding-top: 10px;
+        padding-right: 24px;
+        display: flex;
+        justify-content: space-between;
+
+        @media (min-width: 992px) {
+            display: none;
+        }   
+    }
+
+    &__navbar_desktop {
+        display: none;
+
+        @media (min-width: 992px){
+            display: flex;
+            padding-left: 102px;
+            padding-right: 102px ;
+            padding-top: 10px;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+
+        &--logo {
+
+        }
+
+        &--menu {
+            margin-top: 7px;
+
+        }
+
+    }
+
+    &__title {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+      
+
+
+        
+    }
+
+    &__title-text {
+
+    }
+
+    &__subtitle {
+        
+    }
+
+    &__blindfield {
+        height: 35px;
+    }
+
+    &__button {
+        color: #fff;
+        width: 163px;
+        height: 48px;
+        background-color: #1a1a1a;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 60px;
+
+        &:hover {
+            background-color: #3a3734;
+        }
+
+        &:active {
+            background-color: #d7be9d;
+        }
+        
+
+    }
+
+}
+
+.img_logo {
+    height: 35px;
+}
+
+.img_menu {
+    margin-top: 5px;
+    height: 13px;
+}

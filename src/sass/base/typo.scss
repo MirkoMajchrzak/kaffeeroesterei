@@ -1,0 +1,135 @@
+.h1 {
+
+    &__m {
+        font-size: 64px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 75px;
+        color: #fff;
+        
+        @media (min-width: 992px) {
+            font-size: 96px;
+            line-height: 110px;
+        }
+    
+    }
+}
+
+.h2 {
+
+    &__m  {
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 34px;
+
+        @media (min-width: 992px) {
+            font-size: 48px;
+            line-height: 56.25px;
+        }
+
+        &--2 {
+            font-size: 36px;
+            font-weight: 900;
+            line-height: 34px;
+
+            @media (min-width: 992px) {
+                font-size: 48px;
+                line-height: 56.25px;
+            }
+
+        }
+
+        &--imprint {
+            font-size: 36px;
+            font-weight: 900;
+            line-height: 34px;
+            margin-bottom: 30px;
+        }
+
+    }
+}
+
+.h3 {
+
+    &__m {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 37.5px;
+        
+    }
+}
+
+.subhead {
+
+    &__m{
+        //text-align: center;
+        color: #fff;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+.link-header {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline 1px solid #fff;
+    margin-right: 69px;
+
+    &:active:hover {
+        text-decoration: none;
+    }
+    
+}
+
+.link-button{
+    color: #fff;
+}
+
+.link-footer {
+    color: #fff;
+    line-height: 18px;
+}
+
+.link-map {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.article {
+    color:#000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.article-white {
+    color:#fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.body-text-m {
+    font-size: 18px;
+    line-height: 18px;
+
+    @media (min-width: 568px) {
+        line-height: 21px;
+    }
+
+    @media (min-width: 992px) {
+        line-height: 24px;
+    }
+    
+}
+
+.footer-heading-m {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+}

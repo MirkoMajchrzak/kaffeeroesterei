@@ -1,0 +1,165 @@
+.footer {
+    background-color: #000;
+    padding-bottom: 30px;
+    
+    &__icon {
+        padding-top: 60px;
+        margin-left: 24px;
+        
+        @media (min-width: 992px) {
+            margin-left: 100px;
+        }
+        
+        &--image {
+            width: 35px;
+            height: auto;
+
+            @media (min-width: 590px) {
+                width: 70px;
+            }
+        }
+
+    }
+    
+    &__box {
+        
+        
+    }
+
+    
+    &__heading {
+        color: #fff;
+        margin-top: 15px;
+        margin-left: 24px;
+
+        @media (min-width: 992px) {
+            margin-left: 100px;
+        }
+
+    }
+
+    &__subhead {
+        color: #fff;
+        margin-left: 24px;
+
+        @media (min-width: 992px) {
+            margin-left: 100px;
+        }
+
+    }
+
+    &__wo {
+    
+        margin-top: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @media (min-width: 992px) {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        
+        
+
+        &--besuchen {
+            margin-bottom: 20px;
+            width: 18ch;
+
+            @media (min-width: 568px) {
+                order: 1;
+            }
+        
+        }
+    
+        &--oeffnung {
+            margin-bottom: 20px;
+            width: 18ch; 
+
+            @media (min-width: 568px) {
+                order: 2;
+            }
+        
+    
+        }
+
+        &--impressum {
+            margin-bottom: 50px;
+            width: 18ch;
+            display: flex;
+            flex-direction: column;
+
+            @media (min-width: 473px) {
+                order: 4;
+                flex-direction: row;
+                gap: 20px;
+                
+            }
+
+            @media (min-width: 590px) {
+                order: 4;
+                flex-direction: column;
+                gap: 0;
+                
+            }
+        
+        }
+    
+        &--links {
+            margin-bottom: 50px;
+            width: 18ch;
+            display: flex;
+            flex-direction: column;  
+
+            @media (min-width: 568px) {
+                order: 3;
+            }
+            
+            @media (min-width: 590px) {
+                order: 3;
+                width: auto;
+            }
+        
+    
+        }
+    
+    }
+
+   /* &__last {
+        margin-top: 20px;
+        margin-left: 24px;
+        display: flex;
+
+
+        
+        
+
+        &--impressum {
+            margin-bottom: 50px;
+            width: 156px;
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+
+    
+        }
+    
+        &--links {
+            margin-bottom: 50px;
+            width: 156px;
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+            
+            
+    
+        }
+    
+    }*/
+
+
+
+}
