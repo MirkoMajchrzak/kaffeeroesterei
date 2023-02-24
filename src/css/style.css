@@ -617,10 +617,13 @@ a {
   @media (min-width: 992px) {
     .main-cafe {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       margin-left: 102px;
       margin-right: 102px;
       margin-top: 120px; } }
+  @media (min-width: 992px) {
+    .main-cafe__roestereicafe {
+      width: 49%; } }
   .main-cafe__heading {
     margin-top: 60px; }
   .main-cafe__article {
@@ -649,7 +652,7 @@ a {
         .main-cafe__img--img-r {
           order: 2;
           height: auto;
-          width: 80%; } }
+          width: 100%; } }
 
 .kaffeesorten {
   margin-top: 63px;
