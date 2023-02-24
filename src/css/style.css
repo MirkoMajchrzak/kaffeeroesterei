@@ -578,6 +578,46 @@ a {
   .main__video-herkunft {
     margin-top: 56px; }
 
+.main-cafe {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 992px) {
+    .main-cafe {
+      display: flex;
+      justify-content: center;
+      margin-left: 102px;
+      margin-right: 102px;
+      margin-top: 120px; } }
+  .main-cafe__heading {
+    margin-top: 60px; }
+  .main-cafe__article {
+    margin-top: 20px; }
+  .main-cafe__wo {
+    margin-top: 20px;
+    display: flex; }
+    .main-cafe__wo--besuchen {
+      width: 156px;
+      height: 32px; }
+    .main-cafe__wo--oeffnung {
+      width: 156px;
+      height: 32px; }
+  .main-cafe__img {
+    margin-top: 40px; }
+    @media (min-width: 992px) {
+      .main-cafe__img {
+        margin-top: 70px; } }
+    .main-cafe__img--img-r {
+      height: auto;
+      width: 75%;
+      max-width: 400px;
+      margin-left: auto;
+      display: block; }
+      @media (min-width: 992px) {
+        .main-cafe__img--img-r {
+          order: 2;
+          height: auto;
+          width: 80%; } }
+
 .kaffeesorten {
   margin-top: 63px;
   padding-left: 24px;
