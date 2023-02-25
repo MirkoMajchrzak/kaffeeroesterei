@@ -222,52 +222,8 @@
       </div>
 
       </section>
-
-      <section class="location">
-        <div class="location__heading">
-          <h2 class="h2__m">Komm vorbei</h2>
-        </div>
-        <div class="location__map">
-          <iframe class="location__map--iframe" src="https://www.openstreetmap.org/export/embed.html?bbox=10.118477940559389%2C54.34043514867011%2C10.125558972358705%2C54.3431683038686&amp;layer=mapnik&amp;marker=54.34180174898442%2C10.122018456459045"></iframe>
-          <br/>
-          <p class="link-map"><a class="link-map" href="https://www.openstreetmap.org/?mlat=54.34180&amp;mlon=10.12202#map=18/54.34180/10.12202" target="_blank">Größere Karte anzeigen</a>
-          </p>
-        </div>
-      </section>
+      {{> map }}
     </main>
-    <footer class="footer">
-      <div class="footer__icon">
-        <a href="#"><img class="footer__icon--image" src="images/Logo_footer.svg" alt="LOGO" /></a>
-      </div>
-      <div class="footer__box">
-        <div class="footer__heading">
-          <p class="footer-heading-m">Rustica</p>
-        </div>
-        <div class="footer__subhead">
-          <p class="subhead__m">Café & Rösterei</p>
-        </div>
-      </div>
-
-      <div class="footer__wo">
-        <div class="footer__wo--besuchen">
-          <p class="article-white">Komm uns besuchen!</p>
-          <p class="article-white">Fraunhoferstr. 13, Kiel</p>
-        </div>
-        <div class="footer__wo--oeffnung">
-          <p class="article-white">Mo – Fr 8–18 Uhr</p>
-          <p class="article-white">Sa 11–18 Uhr</p>
-        </div>
-
-        <div class="footer__wo--impressum">
-          <a class="link-footer" href="sub-page/imprint.html">Impressum</a>
-          <a class="link-footer" href="#">Datenschutz</a>
-        </div>
-        <div class="footer__wo--links">
-          <a class="link-footer" href="sub-page/cafe.html">Café</a>
-          <a class="link-footer" href="#">Shop</a>
-          <a class="link-footer" href="sub-page/herkunft.html">Herkunft</a>
-        </div>
-      </div>
-    </footer>
+    {{> footer }}
   </body>
 </html>
