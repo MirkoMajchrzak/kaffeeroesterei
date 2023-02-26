@@ -1,0 +1,27 @@
+.imprint {
+    margin-left: 24px;
+    margin-right: 24px;
+
+    @media (min-width: 992px) {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+
+    &__textbox_first {
+        margin-top: 133px;
+        
+        margin-bottom: 38px;
+    }
+
+    &__textbox_follow {
+        
+        margin-bottom: 38px;
+    }
+
+    &__textbox_follow_last {
+        
+        margin-bottom: 100px;
+    }
+
+}

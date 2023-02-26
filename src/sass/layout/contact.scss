@@ -1,0 +1,13 @@
+.contact {
+    margin-left: 24px;
+    margin-right: 24px;
+
+    @media (min-width: 992px) {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .h2__m {
+        margin-top: 90px;
+    }
+}

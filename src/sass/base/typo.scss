@@ -87,6 +87,19 @@
     
 }
 
+.link-header_black {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline 1px solid #000;
+    margin-right: 69px;
+
+    &:active:hover {
+        text-decoration: none;
+    }
+    
+}
+
 .link-button{
     color: #fff;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rustica - Das Café</title>
+    <title>Rustica - Impressum</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,10 +22,21 @@
         <div class="header__navbar">
           <a href="../index.html"><img class="img_logo" src="../images/Logo_black.svg" alt="LOGO" /></a>
           <a href="#"><img class="img_menu" src="../images/BurgerMenu_black.svg" alt="MENU" /></a>
-        </div>      
+        </div>
+        <div class="header__navbar_desktop">
+          <div class="header__navbar_desktop--logo">
+            <a href="../index.html"><img class="img_logo" src="../images/Logo_header_black.svg" alt="LOGO" /></a>
+          </div>
+          <div class="header__navbar_desktop--menu">
+            <a class="link-header_black" href="cafe.html">das Café</a>
+            <a class="link-header_black" href="herkunft.html">Herkunft</a>
+            <a class="link-header_black" href="#">Shop</a>
+            <img src="../images/shopbag_black.svg" alt="warenkorb">
+          </div>
+        </div>     
     </header>
 
-    <main>
+    <section class="imprint">
       <div class="imprint__textbox_first">
         <h2 class="h2__m--imprint">Imprint &</h2>
         <h3 class="h2__m--imprint">adress</h3>
@@ -117,7 +128,7 @@
       </div>
 
 
-    </main>
+    </section>
      
     {{> footer }}
   </body>

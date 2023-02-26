@@ -68,6 +68,15 @@ a {
   .link-header:active:hover {
     text-decoration: none; }
 
+.link-header_black {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline 1px solid #000;
+  margin-right: 69px; }
+  .link-header_black:active:hover {
+    text-decoration: none; }
+
 .link-button {
   color: #fff; }
 
@@ -274,6 +283,16 @@ a {
         height: fit-content;
         order: 6; } }
 
+.contact {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 992px) {
+    .contact {
+      margin-left: 100px;
+      margin-right: 100px; } }
+  .contact .h2__m {
+    margin-top: 90px; }
+
 .footer {
   background-color: #000;
   padding-bottom: 30px;
@@ -461,7 +480,7 @@ a {
     @media (min-width: 992px) {
       .herkunft-anbaugebiete__img {
         padding-top: 70px;
-        width: 50%; } }
+        width: 55%; } }
 
 .herkunft-kaffeebauern {
   margin-left: 24px;
@@ -477,17 +496,16 @@ a {
     width: 13ch; }
     @media (min-width: 992px) {
       .herkunft-kaffeebauern .h3__m {
+        margin-top: 0px;
         width: auto; } }
   .herkunft-kaffeebauern__heading {
     margin-top: 60px; }
-  .herkunft-kaffeebauern__article {
-    margin-top: 20px; }
-    @media (min-width: 992px) {
-      .herkunft-kaffeebauern__article {
-        width: 35%;
-        order: 2; } }
-    .herkunft-kaffeebauern__article .article {
-      margin-top: 30px; }
+  @media (min-width: 992px) {
+    .herkunft-kaffeebauern__article {
+      width: 35%;
+      order: 2; } }
+  .herkunft-kaffeebauern__article .article {
+    margin-top: 30px; }
   .herkunft-kaffeebauern__img {
     width: 66%;
     margin-top: 60px;
@@ -495,7 +513,9 @@ a {
     margin-right: auto; }
     @media (min-width: 992px) {
       .herkunft-kaffeebauern__img {
-        width: 50%; } }
+        padding-top: 60px;
+        padding-bottom: 100px;
+        width: 55%; } }
 
 .header__background {
   position: relative;
@@ -576,6 +596,21 @@ a {
 .img_menu {
   margin-top: 5px;
   height: 13px; }
+
+.imprint {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 992px) {
+    .imprint {
+      margin-left: 100px;
+      margin-right: 100px; } }
+  .imprint__textbox_first {
+    margin-top: 133px;
+    margin-bottom: 38px; }
+  .imprint__textbox_follow {
+    margin-bottom: 38px; }
+  .imprint__textbox_follow_last {
+    margin-bottom: 100px; }
 
 .main {
   margin-left: 24px;
@@ -662,22 +697,6 @@ a {
     display: block; }
   .main__video-herkunft {
     margin-top: 56px; }
-
-.imprint__textbox_first {
-  margin-top: 133px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 38px; }
-
-.imprint__textbox_follow {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 38px; }
-
-.imprint__textbox_follow_last {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 100px; }
 
 .li__imprint {
   list-style: none;
