@@ -1,11 +1,80 @@
-.herkunft {
+.herkunft-ursprung {
     margin-left: 24px;
     margin-right: 24px;
 
     @media (min-width: 992px) {
-        margin-left: 102px;
-        margin-right: 102px;
+        margin-left: 100px;
+        margin-right: 100px;
         margin-top: 120px;
+    }
+
+    .h2__m {
+        margin-top: 60px;
+        width: 13ch;
+
+        @media (min-width: 568px) {
+            
+            width:auto;
+        }
+
+        &--2 {
+            margin-top: 60px;
+
+        }
+    }
+
+
+    &__flex_content {
+
+        @media (min-width: 992px){
+        width: 50%;
+        max-width: 500px;
+        margin-right: 100px;
+        }
+    }
+
+
+    &__heading {
+        
+        margin-top: 60px;      
+    
+    }
+
+    &__article {
+       margin-top: 20px;
+       
+       @media (min-width: 568px) {
+        margin-top: 35px;
+        margin-left: 14%;
+        margin-right: 14%;
+        }
+
+
+       &__anbaugebiete {
+        margin-top: 20px;
+
+       }
+       .article {
+        margin-top: 20px;
+       }
+
+    }
+
+    &__video-herkunft {
+        margin-top: 56px;
+    }
+
+}
+
+.herkunft-anbaugebiete {
+    margin-left: 24px;
+    margin-right: 24px;
+
+    @media (min-width: 992px) {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 120px;
+        display: flex;
     }
 
     .h2__m {
@@ -18,40 +87,8 @@
             text-align: center;
         }
 
-        &--2 {
-            margin-top: 60px;
-
-        }
-    }
-    
-
-    &__roestereicafe {
-        @media (min-width: 992px) {
-            //order: 1;
-        }
-        
     }
 
-
-    
-
-    &__biofair {
-        @media (min-width: 992px){
-            order: 2;
-            
-        }
-        
-
-    }
-
-    &__flex_content {
-
-        @media (min-width: 992px){
-        width: 50%;
-        max-width: 500px;
-        margin-right: 100px;
-        }
-    }
 
 
     &__heading {
@@ -74,18 +111,17 @@
     }
 
     &__article {
-       margin-top: 20px;      
+       margin-top: 20px;
 
-       &__ursprung {
-        margin-top: 20px;
+       @media (min-width: 992px) {
+        width: 35%;
 
-        @media (min-width: 568px) {
-            margin-top: 35px;
-            margin-left: 25%;
-            margin-right: 25%;
-        }
-        
        }
+       .article {
+        margin-top: 30px;
+       }
+        
+       
 
        &__anbaugebiete {
         margin-top: 20px;
@@ -96,56 +132,69 @@
 
     &__img {
         margin-top: 40px;
-        //height: 182px;
-        //width: 241px;
+        width: 66%;
+        margin-left: auto;
 
         @media (min-width: 992px) {
-            margin-top: 70px;
+            padding-top: 70px;
+            width: 50%;
         }    
-       
 
-        &--img-r-herkunft {
-            height: auto;
-            width: 75%;
-            max-width: 400px;
-            margin-left: auto;
-            display: block; 
+    }
 
-        }
-   
-       &--img-l {
-        height: auto;
-        width: 75%;
-        margin-right: auto;
-        display: block;
+}
+
+.herkunft-kaffeebauern {
+    margin-left: 24px;
+    margin-right: 24px;
+
+    @media (min-width: 992px) {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 120px;
+        display: flex;
+    }
+
+    .h3__m {
+        margin-top: 60px;
+        width: 13ch;
+
         @media (min-width: 992px) {
-            order: 1;
-            height: auto;
-            width: 90%
-        }      
+           width:auto;            
+        }
+
+    }
+
+    &__heading {
+        
+        margin-top: 60px;       
+    
+    }
+
+    &__article {
+       margin-top: 20px;  
+       
+       @media (min-width: 992px) {
+        width: 35%;
+        order: 2;
+
+       }
+       .article {
+        margin-top: 30px;
        }
 
-       
+    }      
 
-       
+    &__img {
+    width: 66%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    
+    @media (min-width: 992px) {
+        width: 50%;
     }
-
-    &__img-herkunft-l {
         
-
-        &--img-l-herkunft {
-        height: auto;
-        width: 75%;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        margin-right: auto;
-        display: block;   
-            
-           }
-    }
-
-    &__video-herkunft {
-        margin-top: 56px;
     }
 
 }

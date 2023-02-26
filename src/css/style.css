@@ -49,6 +49,10 @@ a {
   font-size: 32px;
   font-weight: 900;
   line-height: 37.5px; }
+  @media (min-width: 992px) {
+    .h3__m {
+      font-size: 42 px;
+      line-height: 49.22px; } }
 
 .subhead__m {
   color: #fff;
@@ -197,35 +201,78 @@ a {
       width: 156px;
       height: 32px; }
 
-.kaffeegallerie__box {
-  margin-top: 48px;
-  margin-left: 14px;
-  margin-right: 14px;
-  margin-bottom: 60px; }
-
-.kaffeegallerie__img {
+.kaffeegallerie {
   height: 720px;
+  margin-top: 48px;
+  margin-left: 24px;
+  margin-right: 24px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
   gap: 10px; }
+  @media (min-width: 992px) {
+    .kaffeegallerie {
+      height: 690px;
+      margin-left: 100px;
+      margin-right: 100px;
+      flex-direction: row; } }
   .kaffeegallerie__img--img1 {
-    width: 45vw; }
+    width: 50%; }
+    @media (min-width: 992px) {
+      .kaffeegallerie__img--img1 {
+        width: 24%;
+        height: fit-content;
+        order: 1; } }
   .kaffeegallerie__img--img2 {
-    width: 45vw; }
+    width: 50%; }
+    @media (min-width: 992px) {
+      .kaffeegallerie__img--img2 {
+        width: 24%;
+        height: fit-content;
+        order: 3; } }
   .kaffeegallerie__img--img3 {
-    width: 45vw; }
+    width: 50%; }
+    @media (min-width: 992px) {
+      .kaffeegallerie__img--img3 {
+        width: 24%;
+        height: fit-content;
+        order: 7; } }
   .kaffeegallerie__img--img4 {
-    width: 45vw; }
+    width: 50%; }
+    @media (min-width: 992px) {
+      .kaffeegallerie__img--img4 {
+        width: 24%;
+        height: fit-content;
+        order: 5; } }
   .kaffeegallerie__img--img5 {
-    width: 45vw; }
+    width: 50%; }
+    @media (min-width: 992px) {
+      .kaffeegallerie__img--img5 {
+        width: 24%;
+        height: fit-content;
+        order: 2; } }
   .kaffeegallerie__img--img6 {
-    width: 45vw; }
+    width: 50%; }
+    @media (min-width: 992px) {
+      .kaffeegallerie__img--img6 {
+        width: 24%;
+        height: fit-content;
+        order: 8; } }
   .kaffeegallerie__img--img7 {
-    width: 45vw; }
+    width: 50%; }
+    @media (min-width: 992px) {
+      .kaffeegallerie__img--img7 {
+        width: 24%;
+        height: fit-content;
+        order: 4; } }
   .kaffeegallerie__img--img8 {
-    width: 45vw; }
+    width: 50%; }
+    @media (min-width: 992px) {
+      .kaffeegallerie__img--img8 {
+        width: 24%;
+        height: fit-content;
+        order: 6; } }
 
 .footer {
   background-color: #000;
@@ -337,80 +384,118 @@ a {
           order: 3;
           width: auto; } }
 
-.herkunft {
+.herkunft-ursprung {
   margin-left: 24px;
   margin-right: 24px; }
   @media (min-width: 992px) {
-    .herkunft {
-      margin-left: 102px;
-      margin-right: 102px;
+    .herkunft-ursprung {
+      margin-left: 100px;
+      margin-right: 100px;
       margin-top: 120px; } }
-  .herkunft .h2__m {
+  .herkunft-ursprung .h2__m {
     margin-top: 60px;
     width: 13ch; }
     @media (min-width: 568px) {
-      .herkunft .h2__m {
-        margin-top: 120px;
-        width: auto;
-        text-align: center; } }
-    .herkunft .h2__m--2 {
+      .herkunft-ursprung .h2__m {
+        width: auto; } }
+    .herkunft-ursprung .h2__m--2 {
       margin-top: 60px; }
   @media (min-width: 992px) {
-    .herkunft__biofair {
-      order: 2; } }
-  @media (min-width: 992px) {
-    .herkunft__flex_content {
+    .herkunft-ursprung__flex_content {
       width: 50%;
       max-width: 500px;
       margin-right: 100px; } }
-  .herkunft__heading {
+  .herkunft-ursprung__heading {
     margin-top: 60px; }
-    .herkunft__heading__cafe {
+  .herkunft-ursprung__article {
+    margin-top: 20px; }
+    @media (min-width: 568px) {
+      .herkunft-ursprung__article {
+        margin-top: 35px;
+        margin-left: 14%;
+        margin-right: 14%; } }
+    .herkunft-ursprung__article__anbaugebiete {
+      margin-top: 20px; }
+    .herkunft-ursprung__article .article {
+      margin-top: 20px; }
+  .herkunft-ursprung__video-herkunft {
+    margin-top: 56px; }
+
+.herkunft-anbaugebiete {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 992px) {
+    .herkunft-anbaugebiete {
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 120px;
+      display: flex; } }
+  .herkunft-anbaugebiete .h2__m {
+    margin-top: 60px;
+    width: 13ch; }
+    @media (min-width: 568px) {
+      .herkunft-anbaugebiete .h2__m {
+        margin-top: 120px;
+        width: auto;
+        text-align: center; } }
+  .herkunft-anbaugebiete__heading {
+    margin-top: 60px; }
+    .herkunft-anbaugebiete__heading__cafe {
       margin-top: 60px; }
-    .herkunft__heading__herkunft {
+    .herkunft-anbaugebiete__heading__herkunft {
       margin-top: 60px;
       margin-right: 96px; }
-  .herkunft__article {
+  .herkunft-anbaugebiete__article {
     margin-top: 20px; }
-    .herkunft__article__ursprung {
-      margin-top: 20px; }
-      @media (min-width: 568px) {
-        .herkunft__article__ursprung {
-          margin-top: 35px;
-          margin-left: 25%;
-          margin-right: 25%; } }
-    .herkunft__article__anbaugebiete {
-      margin-top: 20px; }
-  .herkunft__img {
-    margin-top: 40px; }
     @media (min-width: 992px) {
-      .herkunft__img {
-        margin-top: 70px; } }
-    .herkunft__img--img-r-herkunft {
-      height: auto;
-      width: 75%;
-      max-width: 400px;
-      margin-left: auto;
-      display: block; }
-    .herkunft__img--img-l {
-      height: auto;
-      width: 75%;
-      margin-right: auto;
-      display: block; }
-      @media (min-width: 992px) {
-        .herkunft__img--img-l {
-          order: 1;
-          height: auto;
-          width: 90%; } }
-  .herkunft__img-herkunft-l--img-l-herkunft {
-    height: auto;
-    width: 75%;
+      .herkunft-anbaugebiete__article {
+        width: 35%; } }
+    .herkunft-anbaugebiete__article .article {
+      margin-top: 30px; }
+    .herkunft-anbaugebiete__article__anbaugebiete {
+      margin-top: 20px; }
+  .herkunft-anbaugebiete__img {
+    margin-top: 40px;
+    width: 66%;
+    margin-left: auto; }
+    @media (min-width: 992px) {
+      .herkunft-anbaugebiete__img {
+        padding-top: 70px;
+        width: 50%; } }
+
+.herkunft-kaffeebauern {
+  margin-left: 24px;
+  margin-right: 24px; }
+  @media (min-width: 992px) {
+    .herkunft-kaffeebauern {
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 120px;
+      display: flex; } }
+  .herkunft-kaffeebauern .h3__m {
+    margin-top: 60px;
+    width: 13ch; }
+    @media (min-width: 992px) {
+      .herkunft-kaffeebauern .h3__m {
+        width: auto; } }
+  .herkunft-kaffeebauern__heading {
+    margin-top: 60px; }
+  .herkunft-kaffeebauern__article {
+    margin-top: 20px; }
+    @media (min-width: 992px) {
+      .herkunft-kaffeebauern__article {
+        width: 35%;
+        order: 2; } }
+    .herkunft-kaffeebauern__article .article {
+      margin-top: 30px; }
+  .herkunft-kaffeebauern__img {
+    width: 66%;
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-right: auto;
-    display: block; }
-  .herkunft__video-herkunft {
-    margin-top: 56px; }
+    margin-right: auto; }
+    @media (min-width: 992px) {
+      .herkunft-kaffeebauern__img {
+        width: 50%; } }
 
 .header__background {
   position: relative;

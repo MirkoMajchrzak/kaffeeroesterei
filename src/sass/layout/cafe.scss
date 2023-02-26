@@ -212,61 +212,108 @@
 }
 
 .kaffeegallerie {
+    height: 720px;
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 10px;
+
+    @media (min-width: 992px) {
+        height: 690px;
+        margin-left: 100px;
+        margin-right: 100px;
+        flex-direction: row;
+    }
     
 
     &__box {
-        margin-top: 48px;
-        margin-left: 14px;
-        margin-right: 14px;
-        margin-bottom: 60px;
-            
+           
     }
 
     &__img {
-        height: 720px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 10px;
         
         &--img1 { 
-            width: 45vw;         
+            width: 50%;
+            
+            @media (min-width: 992px) {
+                width: 24%;
+                height: fit-content;
+                order: 1;
+            }
 
         }
         
         &--img2 {
-            width: 45vw;          
+            width: 50%;
+            @media (min-width: 992px) {
+                width: 24%;
+                height: fit-content;
+                order: 3;
+            }     
 
         } 
 
         &--img3 {
-            width: 45vw;          
+            width: 50%;
+            @media (min-width: 992px) {
+                width: 24%;
+                height: fit-content;
+                order: 7;
+            }        
 
         } 
 
         &--img4 {
-            width: 45vw;          
+            width: 50%;
+            @media (min-width: 992px) {
+                width: 24%;
+                height: fit-content;
+                order: 5;
+            }        
 
         } 
 
         &--img5 {
-            width: 45vw;          
+            width: 50%;
+            @media (min-width: 992px) {
+                width: 24%;
+                height: fit-content;
+                order: 2;
+            }        
 
         } 
 
         &--img6 {
-            width: 45vw;    
+            width: 50%;
+            @media (min-width: 992px) {
+                width: 24%;
+                height: fit-content;
+                order: 8;
+            }
 
         } 
 
         &--img7 {
-            width: 45vw;    
+            width: 50%;
+            @media (min-width: 992px) {
+                width: 24%;
+                height: fit-content;
+                order: 4;
+            }  
 
         } 
 
         &--img8 {
-            width: 45vw;      
+            width: 50%;      
+            @media (min-width: 992px) {
+                width: 24%;
+                height: fit-content;
+                order: 6;
+            }
 
         } 
         

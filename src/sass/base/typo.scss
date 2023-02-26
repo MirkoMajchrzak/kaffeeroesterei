@@ -55,6 +55,11 @@
         font-size: 32px;
         font-weight: 900;
         line-height: 37.5px;
+
+        @media (min-width: 992px) {
+            font-size: 42 px;
+            line-height: 49.22px;
+        }
         
     }
 }
