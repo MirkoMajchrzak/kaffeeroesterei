@@ -91,18 +91,38 @@ a {
   line-height: 18px;
   text-align: right;
   text-decoration: none; }
+  @media (min-width: 992px) {
+    .link-map {
+      font-size: 18px;
+      text-align: center; } }
 
 .article {
   color: #000;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px; }
+  @media (min-width: 568px) {
+    .article {
+      font-size: 16px;
+      line-height: 21px; } }
+  @media (min-width: 992px) {
+    .article {
+      font-size: 18px;
+      line-height: 24px; } }
 
 .article-white {
   color: #fff;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px; }
+  @media (min-width: 568px) {
+    .article-white {
+      font-size: 16px;
+      line-height: 21px; } }
+  @media (min-width: 992px) {
+    .article-white {
+      font-size: 18px;
+      line-height: 24px; } }
 
 .body-text-m {
   font-size: 18px;
@@ -619,10 +639,17 @@ a {
 
 .location__map {
   height: 320px; }
+  @media (min-width: 992px) {
+    .location__map {
+      height: 450px;
+      text-align: center; } }
   .location__map--iframe {
     height: 90%;
     width: 100%;
     border: 1px solid black; }
+    @media (min-width: 992px) {
+      .location__map--iframe {
+        width: 80%; } }
 
 .main-cafe {
   margin-left: 24px;

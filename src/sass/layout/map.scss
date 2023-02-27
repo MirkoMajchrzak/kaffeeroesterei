@@ -11,10 +11,19 @@
       //  background-image: url(../images/Map.png);
       //  background-size: contain;
 
+      @media (min-width: 992px){
+        height: 450px;
+        text-align: center;
+      }
+
       &--iframe {
         height: 90%;
         width: 100%;
         border: 1px solid black;
+
+        @media (min-width: 992px){
+          width: 80%;
+        }
       }
 
     }
