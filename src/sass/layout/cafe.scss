@@ -1,5 +1,5 @@
 :root {
-    --mobile-img-width: calc( (100vw - 60px) / 2);
+    --mobile-img-width: calc( (90vw - 72px) / 2);
     --desktop-img-width: calc( (100vw - 100px) / 6);
 }
 
@@ -217,21 +217,19 @@
 }
 
 .kaffeegallerie {
-    height: 720px;
+    height: calc( 3 * 24px + 2 * var(--mobile-img-width) * 0.75 + 2 * var(--mobile-img-width) * 1.33 );
     margin-top: 48px;
     margin-left: 24px;
     margin-right: 24px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-around;
-    gap: 10px;
+    //align-content: space-around;
+    gap: 20px;
 
-    @media (min-width: 992px) {
-        height: 690px;
-        margin-left: 100px;
-        margin-right: 100px;
-        flex-direction: row;
+    @media (min-width: 768px) {
+        height: calc( 20px + var(--desktop-img-width) * 0.9 + var(--desktop-img-width) * 1.7 );
+        align-content: center;
     }
     
 
@@ -240,83 +238,97 @@
     }
 
     &__img {
+        width: var(--mobile-img-width);
+        height: auto;
+        @media (min-width: 768px) {
+            width: var(--desktop-img-width);
+        }
         
         &--img1 { 
-            width: 50%;
+            height: calc( var(--mobile-img-width) * 0.75);
             
-            @media (min-width: 992px) {
-                width: 24%;
-                height: fit-content;
+            @media (min-width: 768px) {
+                height: calc( var(--desktop-img-width) * 0.75);
+                //width: 24%;
+                //height: fit-content;
                 order: 1;
             }
 
         }
         
         &--img2 {
-            width: 50%;
-            @media (min-width: 992px) {
-                width: 24%;
-                height: fit-content;
+            height: calc( var(--mobile-img-width) * 0.75);
+
+            @media (min-width: 768px) {
+                height: calc( var(--desktop-img-width) * 0.75);
+                //width: 24%;
+                //height: fit-content;
                 order: 3;
             }     
 
         } 
 
         &--img3 {
-            width: 50%;
-            @media (min-width: 992px) {
-                width: 24%;
-                height: fit-content;
+            height: calc( var(--mobile-img-width) * 1.33);
+            @media (min-width: 768px) {
+                height: calc( var(--desktop-img-width) * 1.33);
+                //width: 24%;
+                //height: fit-content;
                 order: 7;
             }        
 
         } 
 
         &--img4 {
-            width: 50%;
-            @media (min-width: 992px) {
-                width: 24%;
-                height: fit-content;
+            height: calc( var(--mobile-img-width) * 1.33);
+            @media (min-width: 768px) {
+                height: calc( var(--desktop-img-width) * 1.33);
+                //width: 24%;
+                //height: fit-content;
                 order: 5;
             }        
 
         } 
 
         &--img5 {
-            width: 50%;
-            @media (min-width: 992px) {
-                width: 24%;
-                height: fit-content;
+            height: calc( var(--mobile-img-width) * 1.33);
+            @media (min-width: 768px) {
+                height: calc( var(--desktop-img-width) * 1.33);
+                //width: 24%;
+                //height: fit-content;
                 order: 2;
             }        
 
         } 
 
         &--img6 {
-            width: 50%;
-            @media (min-width: 992px) {
-                width: 24%;
-                height: fit-content;
+            height: calc( var(--mobile-img-width) * 0.75);
+            @media (min-width: 768px) {
+                height: calc( var(--desktop-img-width) * 0.75);
+                //width: 24%;
+                //height: fit-content;
                 order: 8;
             }
 
         } 
 
         &--img7 {
-            width: 50%;
-            @media (min-width: 992px) {
-                width: 24%;
-                height: fit-content;
+            height: calc( var(--mobile-img-width) * 1.33);
+            @media (min-width: 768px) {
+                height: calc( var(--desktop-img-width) * 1.33);
+                //width: 24%;
+                //height: fit-content;
                 order: 4;
             }  
 
         } 
 
         &--img8 {
-            width: 50%;      
-            @media (min-width: 992px) {
-                width: 24%;
-                height: fit-content;
+            height: calc( var(--mobile-img-width) * 0.75);     
+            @media (min-width: 768px) {
+                height: calc( var(--desktop-img-width) * 0.75);
+                //width: 24%;
+                //height: fit-content;
                 order: 6;
             }
 

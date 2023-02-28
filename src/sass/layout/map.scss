@@ -11,7 +11,7 @@
       //  background-image: url(../images/Map.png);
       //  background-size: contain;
 
-      @media (min-width: 992px){
+      @media (min-width: 768px){
         height: 450px;
         text-align: center;
       }
@@ -21,7 +21,7 @@
         width: 100%;
         border: 1px solid black;
 
-        @media (min-width: 992px){
+        @media (min-width: 768px){
           width: 80%;
         }
       }
