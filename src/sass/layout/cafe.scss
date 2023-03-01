@@ -83,6 +83,7 @@
 
         @media (min-width: 992px) {
             margin-top: 70px;
+            width: 50%
         }  
        
        
@@ -93,6 +94,10 @@
             max-width: 400px;
             margin-left: auto;
             display: block;
+
+            @media (min-width: 992px) {
+                width: 100%;
+            } 
         }    
 
     }
