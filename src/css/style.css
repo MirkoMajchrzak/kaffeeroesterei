@@ -65,7 +65,7 @@ a {
   font-weight: 400;
   text-decoration: underline 1px solid #fff;
   margin-right: 69px; }
-  .link-header:active:hover {
+  .link-header:active, .link-header:hover {
     text-decoration: none; }
 
 .link-header_black {
@@ -82,7 +82,18 @@ a {
 
 .link-footer {
   color: #fff;
-  line-height: 18px; }
+  line-height: 18px;
+  text-decoration: underline 1px solid #fff; }
+  .link-footer:active, .link-footer:hover {
+    text-decoration: none; }
+  @media (min-width: 568px) {
+    .link-footer {
+      font-size: 16px;
+      line-height: 21px; } }
+  @media (min-width: 992px) {
+    .link-footer {
+      font-size: 18px;
+      line-height: 24px; } }
 
 .link-map {
   color: #000;
@@ -384,7 +395,7 @@ a {
         margin-right: 100px; } }
     .footer__wo--besuchen {
       margin-bottom: 20px;
-      width: 18ch; }
+      width: 20ch; }
       @media (min-width: 568px) {
         .footer__wo--besuchen {
           order: 1; } }
