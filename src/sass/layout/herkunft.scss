@@ -45,9 +45,11 @@
        
        @media (min-width: 568px) {
         margin-top: 35px;
-        margin-left: 14%;
-        margin-right: 14%;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
         }
+        
 
 
        &__anbaugebiete {
@@ -63,7 +65,7 @@
     &__video-herkunft {
         margin-top: 56px;
         @media (min-width: 992px) {
-            max-width: 800px;
+            max-width: 900px;
             margin-left: auto;
             margin-right: auto;
         }

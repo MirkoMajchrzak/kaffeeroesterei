@@ -2,7 +2,7 @@
 
     &__heading {
         margin-top: 60px;
-        margin-left: 24px;
+        margin-left: 5%;
         margin-bottom: 35px;
     }
 
@@ -22,7 +22,7 @@
         border: 1px solid black;
 
         @media (min-width: 768px){
-          width: 80%;
+          width: 90%;
         }
       }
 
