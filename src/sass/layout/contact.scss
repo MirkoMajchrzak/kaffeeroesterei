@@ -9,5 +9,83 @@
 
     .h2__m {
         margin-top: 90px;
+        margin-bottom: 30px;
+        width: 15ch;
     }
+}
+.contactform {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+
+}
+
+#name {
+    border: none;
+    border-bottom: 2px solid #1A1A1A;
+    background-color: #E9E9E9;
+    height: 2rem;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+#email {
+    border: none;
+    border-bottom: 2px solid #1A1A1A;
+    background-color: #E9E9E9;
+    height: 2rem;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+#telephone {
+    border: none;
+    border-bottom: 2px solid #1A1A1A;
+    background-color: #E9E9E9;
+    height: 2rem;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+#betreff{
+    border-radius: 4px;
+    height: 2.5rem;
+    background: black;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 130px;
+}
+
+#message {
+    height: 10rem;
+    border: none;
+    border-bottom: 3px solid #1A1A1A;
+    padding-left: 20px;
+    padding-top: 51px;
+    margin-bottom: 40px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 40px;
+}
+
+#check1 {
+    transform: scale(1.4);
+    margin-right: 10px;
+}
+
+#sendbutton {
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 3px;
+    background: #1A1A1A;
+    color: #fff;
 }
