@@ -18,56 +18,44 @@
   </head>
 
   <body>
-    <header class="header">      
-        <div class="header__navbar">
-          <a href="../index.html"><img class="img_logo" src="../images/Logo_black.svg" alt="LOGO" /></a>
-          <a href="#"><img class="img_menu" src="../images/BurgerMenu_black.svg" alt="MENU" /></a>
-        </div>
-        <div class="header__navbar_desktop">
-          <div class="header__navbar_desktop--logo">
-            <a href="../index.html"><img class="img_logo" src="../images/Logo_header_black.svg" alt="LOGO" /></a>
-          </div>
-          <div class="header__navbar_desktop--menu">
-            <a class="link-header_black" href="cafe.html">das Café</a>
-            <a class="link-header_black" href="herkunft.html">Herkunft</a>
-            <a class="link-header_black" href="#">Shop</a>
-            <img src="../images/shopbag_black.svg" alt="warenkorb">
-          </div>
-        </div>     
-    </header>
+    
+    {{> header-white }}
 
     <section class="contact">
-        <h2 class="h2__m">Du hast Fragen? Schreib uns gern!</h2>
-        <form class="contactform">
-          <label for="name"><p class="body-text-m">Name*</p></label>
-            <input type="text" id="name" name="name" value="" placeholder="Name" />
-          
-
-          <label for="email">E-Mail*</label>
-            <input type="email" id="email" name="email" value="" placeholder="E-Mail" />
-          
-
-          <label for="tel">Telefonnummer</label>
-            <input type="tel" id="telephone" name="telephone" value="" placeholder="Telefonnummer" />
-          
-
-          <label for="betreff">Betreff*: </label>
-        <select id="betreff" name="betreff" placeholder="Dein Betreff:">
-            <option value="lieferung">Fragen zur Lieferung</option>
-            <option value="produkt">Fragen zum Produkt</option>
-            <option value="vertrieb">Vertriebsfragen</option>
-            <option value="nur_so">einfach nur so!</option>
-        </select>
-        
-        <label for="message">Deine Nachricht*</label>
-        <textarea id="message" name="message" placeholder="Was hast Du auf dem Herzen?">Was hast Du auf dem Herzen?</textarea>
-
-        <div class="checkbox">
-          <input type="checkbox" id="check1" name="check1" value="">
-          <label for="check1"> Ich akzeptiere die Datenschutzerklärung</label>
+        <div class="contactform-title">
+          <h2 class="h2__m">Du hast Fragen? Schreib uns gern!</h2>
         </div>
 
-        <input type="button" id="sendbutton" onclick="alert('Noch keine Funktion')" value="abschicken">
+        <form class="contactform">
+            <label for="name"><p class="body-text-m">Name*</p></label>
+              <input type="text" id="name" name="name" value="" placeholder="Name" required />
+            
+
+            <label for="email">E-Mail*</label>
+              <input type="email" id="email" name="email" value="" placeholder="E-Mail" required />
+            
+
+            <label for="tel">Telefonnummer</label>
+              <input type="tel" id="telephone" name="telephone" value="" placeholder="Telefonnummer" />
+            
+
+            <label for="betreff">Betreff*: </label>
+          <select id="betreff" required name="betreff" placeholder="Dein Betreff:">
+              <option value="lieferung">Fragen zur Lieferung</option>
+              <option value="produkt">Fragen zum Produkt</option>
+              <option value="vertrieb">Vertriebsfragen</option>
+              <option value="nur_so">einfach nur so!</option>
+          </select>
+          
+          <label for="message">Deine Nachricht*</label>
+          <textarea id="message" name="message" required placeholder="Was hast Du auf dem Herzen?">Was hast Du auf dem Herzen?</textarea>
+
+          <div class="checkbox">
+            <input type="checkbox" id="check1" name="check1" value="" required >
+            <label for="check1"> Ich akzeptiere die Datenschutzerklärung</label>
+          </div>
+
+          <input type="submit" id="sendbutton"  value="abschicken">
 
       </form>
     </section>
