@@ -1,3 +1,16 @@
 .detail-image {
+    background-color: #d7be9d;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    &__img {
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
 }
