@@ -8,4 +8,7 @@ const navOverlay = document.querySelector('.nav-overlay');
 // open mobile nav on click
 toggleButton.addEventListener('click', function() {
     navOverlay.classList.toggle('hidden');
+    //scroll lock
+    document.body.classList.toggle('lock-scroll');
 });
+
