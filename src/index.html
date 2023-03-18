@@ -22,8 +22,22 @@
       <div class="header__background">
         <div class="header__navbar">
           <a href="../index.html"><img class="img_logo" src="images/Logo.svg" alt="LOGO" /></a>
-          <a href="#"><img class="img_menu" src="images/BurgerMenu.svg" alt="MENU" /></a>
+          <button class="open-nav">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </button>
         </div>
+        <div class="nav-overlay hidden">
+          <div class="navlinks">
+              <a class="nav-link" href="#">Nav Link 1</a>
+              <a class="nav-link" href="#">Nav Link 2</a>
+              <a class="nav-link" href="#">Nav Link 3</a>
+              <a class="nav-link" href="#">Nav Link 4</a>
+              <a class="nav-link" href="#">Nav Link 5</a>
+              <a class="nav-link" href="#">Nav Link 6</a>
+          </div>
+      </div>
         <div class="header__navbar_desktop">
           <div class="header__navbar_desktop--logo">
             <a href="../index.html"><img class="img_logo" src="images/Logo.svg" alt="LOGO" /></a>
@@ -229,5 +243,6 @@
       {{> map }}
     </main>
     {{> footer }}
+    <script src="js/mobile-menu.js"></script>
   </body>
 </html>
