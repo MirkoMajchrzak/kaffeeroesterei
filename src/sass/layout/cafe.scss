@@ -1,6 +1,6 @@
 :root {
     --mobile-img-width: calc( (90vw - 72px) / 2);
-    --desktop-img-width: calc( (100vw - 100px) / 6);
+    --desktop-img-width: calc( (100vw) / 6);
 }
 
 .roesterei {
@@ -269,7 +269,7 @@
                 height: calc( var(--desktop-img-width) * 0.75);
                 //width: 24%;
                 //height: fit-content;
-                order: 3;
+                order: 5;
             }     
 
         } 
@@ -280,7 +280,7 @@
                 height: calc( var(--desktop-img-width) * 1.33);
                 //width: 24%;
                 //height: fit-content;
-                order: 7;
+                order: 6;
             }        
 
         } 
@@ -291,7 +291,7 @@
                 height: calc( var(--desktop-img-width) * 1.33);
                 //width: 24%;
                 //height: fit-content;
-                order: 5;
+                order: 2;
             }        
 
         } 
@@ -302,7 +302,7 @@
                 height: calc( var(--desktop-img-width) * 1.33);
                 //width: 24%;
                 //height: fit-content;
-                order: 2;
+                order: 3;
             }        
 
         } 
@@ -324,7 +324,7 @@
                 height: calc( var(--desktop-img-width) * 1.33);
                 //width: 24%;
                 //height: fit-content;
-                order: 4;
+                order: 7;
             }  
 
         } 
@@ -335,7 +335,7 @@
                 height: calc( var(--desktop-img-width) * 0.75);
                 //width: 24%;
                 //height: fit-content;
-                order: 6;
+                order: 4;
             }
 
         } 
