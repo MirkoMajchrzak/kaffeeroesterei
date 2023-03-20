@@ -71,7 +71,13 @@
         color: #fff;
         font-size: 18px;
         line-height: 21px;
+
+        &--black {
+            color: #000;
+        }
     }
+
+
 }
 
 .link-header {
