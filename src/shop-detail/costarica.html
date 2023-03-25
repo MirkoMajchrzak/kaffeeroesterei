@@ -35,7 +35,29 @@
         </div>
         </section>
         <section class="dd-btn">
-          
+          <div class="dd-shop">
+            <select id="amount" required name="amount" placeholder="wie viel Kaffee brauchst Du?">
+              <option value="250g">250 g gemahlen</option>
+              <option value="500g">500 g gemahlen</option>
+              <option value="250b">250 g Bohnen</option>
+              <option value="500b">500 g Bohnen</option>
+          </select>
+          </div>
+          <div class="btn-shop">
+            <input type="submit" id="sendbutton"  value="In den Warenkorb">
+          </div>
+        </section>
+
+        <section class="icons-shop">
+          <div class="beans">
+
+          </div>
+          <div class="press">
+
+          </div>
+          <div class="shovel">
+            
+          </div>
         </section>
      
       <section class="kaffeesorten">
@@ -96,5 +118,6 @@
       </section>    
     </main>
     {{> footer }}
+    <script src="../js/mobile-menu.js"></script>
   </body>
 </html>

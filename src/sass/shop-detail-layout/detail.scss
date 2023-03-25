@@ -37,8 +37,26 @@
 }
 
 .dd-btn {
+    margin-top: 45px;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+#amount {
+    width: 270px;
+    height: 45px;
+    border-radius: 3px;
+    border: 2px solid #000;
+}
+
+.btn-shop {
+    margin-top: 35px;
+}
+
+.icons-shop {
+    margin-top: 115px;
 }
