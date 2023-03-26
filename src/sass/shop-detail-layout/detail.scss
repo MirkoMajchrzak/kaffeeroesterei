@@ -39,8 +39,8 @@
 
 .dd-btn {
     margin-top: 45px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,10 +48,19 @@
 }
 
 #amount {
-    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
     height: 45px;
     border-radius: 3px;
     border: 2px solid #000;
+
+    @media (min-width: 768px) {
+        width: 40vw;         
+    }
+    @media (min-width: 992px) {
+        width: 30vw;         
+    }
 }
 
 .btn-shop {
