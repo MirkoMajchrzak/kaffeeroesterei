@@ -1,6 +1,6 @@
 
 
-const appContainer = document.querySelector("#app");
+const appContainer = document.querySelector(".flex-container-product");
 
 async function fetchProducts() {
     const response = await fetch("../shop/shop.json");
@@ -10,12 +10,17 @@ async function fetchProducts() {
     const productsHtml = products
     .map(
       (product) => `
-    <a href="shop.html?id=${product.id}">
-     <article>
-       <h3 class="title--blue">${product.productName}</h3>
-       <img src="https://images.unsplash.com/photo-1484994211335-48e240f0d140?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
-       <div>${product.price}</div>
-     </article>
+    <a href="../shop-detail/shop.html?id=${product.id}">
+    <article class="product">
+            <div class="product__image-container">
+              <img class="product__image" src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica">
+            </div>
+            <p class="bodytext__m">${product.productName}</p>
+            <p class="bodytext__m--grey">${product.price}</p>
+            <img src="../images/icon_kaffee_bohnen.svg" alt="Kaffeebohnen" class="product__icons">
+            <img src="../images/icon_frenchpress.svg" alt="Frenchpress" class="product__icons">
+            <img src="../images/icon_kaffee_schaufel.svg" alt="Kaffeeschaufel" class="product__icons">
+          </article>
     </a>
    `
     )
