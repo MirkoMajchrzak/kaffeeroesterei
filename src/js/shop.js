@@ -10,7 +10,7 @@ async function fetchProducts() {
     const productsHtml = products
     .map(
       (product) => `
-    <a href="../shop-detail/shop.html?id=${product.id}">
+    <a class="a-shop" href="../shop-detail/shop.html?id=${product.id}">
     <article class="product">
             <div class="product__image-container">
               <img class="product__image" src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica">
