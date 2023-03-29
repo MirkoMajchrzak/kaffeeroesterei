@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rustica - Start</title>
+    <link rel="stylesheet" href="/sass/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+
+  <body>
+    
+    {{> header-black }}
+
+    <main>
+      <div class="detail-image">
+        <img src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica" class="detail-image__img">
+      </div>
+      
+      <section class="detail-info">
+        <div class="detail-info__text">
+          <h2 class="h2__m">Costa Rica</h2>
+          <p class="subhead__m--black">6,90€ - 26,90€</p>
+          <p class="body-text__m">Costa Rica Filterkaffee ist äußerst ergiebig und hat praktisch keine Säure. Den Gaumen umschmeichelt ein vollmundiges Haselnussaroma. Gleich probieren!</p>
+
+        </div>
+        </section>
+        <section class="dd-btn">
+          <div class="dd-shop">
+            <select id="amount" required name="amount" placeholder="wie viel Kaffee brauchst Du?">
+              <option value="250g">250 g gemahlen</option>
+              <option value="500g">500 g gemahlen</option>
+              <option value="250b">250 g Bohnen</option>
+              <option value="500b">500 g Bohnen</option>
+          </select>
+          </div>
+          <div class="btn-shop">
+            <input type="submit" id="sendbutton"  value="In den Warenkorb">
+          </div>
+        </section>
+
+        <section class="icons-shop">
+          <div class="beans">
+           <img src="../images/beans-shop.svg" alt="Kaffeebohnen" class="svg-shop">
+           <p class="body-text__m">Mild geröstet</p>
+          </div>
+          <div class="press">
+            <img src="../images/press-shop.svg" alt="French Press" class="svg-shop">
+            <p class="body-text__m">Für French Press</p>
+          </div>
+          <div class="shovel">
+            <img src="../images/shovel-shop.svg" alt="Kaffeeschaufel" class="svg-shop">
+            <p class="body-text__m">gemahlen oder als Bohne</p>
+          </div>
+        </section>
+
+        <section class="description-detail">
+          <h3 class="h3__m">Beschreibung</h3>
+          <p class="body-text__m">
+            MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft.
+          </p>
+        </section>
+     
+      <section class="kaffeesorten">
+        
+        <h2 class="h2__m">Entdecke unsere Kaffee Sorten</h2>
+        
+        <div class="flex-container-product">
+          <article class="product">
+            <div class="product__image-container">
+              <img class="product__image" src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica">
+            </div>
+            <p class="subhead__m">Costa Rica</p>
+            <p class="bodytext__m">6,90€ - 26,90€</p>
+            <img src="../images/icon_kaffee_bohnen.svg" alt="Kaffeebohnen" class="product__icons">
+            <img src="../images/icon_frenchpress.svg" alt="Frenchpress" class="product__icons">
+            <img src="../images/icon_kaffee_schaufel.svg" alt="Kaffeeschaufel" class="product__icons">
+          </article>
+
+          <article class="product">
+            <div class="product__image-container">
+              <img class="product__image" src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica">
+            </div>
+            <p class="subhead__m">Costa Rica</p>
+            <p class="bodytext__m">6,90€ - 26,90€</p>
+            <img src="../images/icon_kaffee_bohnen.svg" alt="Kaffeebohnen" class="product__icons">
+            <img src="../images/icon_frenchpress.svg" alt="Frenchpress" class="product__icons">
+            <img src="../images/icon_kaffee_schaufel.svg" alt="Kaffeeschaufel" class="product__icons">
+          </article>
+
+          <article class="product">
+            <div class="product__image-container">
+              <img class="product__image" src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica">
+            </div>
+            <p class="subhead__m">Costa Rica</p>
+            <p class="bodytext__m">6,90€ - 26,90€</p>
+            <img src="../images/icon_kaffee_bohnen.svg" alt="Kaffeebohnen" class="product__icons">
+            <img src="../images/icon_frenchpress.svg" alt="Frenchpress" class="product__icons">
+            <img src="../images/icon_kaffee_schaufel.svg" alt="Kaffeeschaufel" class="product__icons">
+          </article>
+
+          <article class="product">
+            <div class="product__image-container">
+              <img class="product__image" src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica">
+            </div>
+            <p class="subhead__m">Costa Rica</p>
+            <p class="bodytext__m">6,90€ - 26,90€</p>
+            <img src="../images/icon_kaffee_bohnen.svg" alt="Kaffeebohnen" class="product__icons">
+            <img src="../images/icon_frenchpress.svg" alt="Frenchpress" class="product__icons">
+            <img src="../images/icon_kaffee_schaufel.svg" alt="Kaffeeschaufel" class="product__icons">
+          </article>
+        </div>
+        <div class="kaffeeangebot__button-kaffeesorten">
+          <div class="kaffeeangebot__button-kaffeesorten--btn">
+            <a class="link-button" href="../shop/index.html">alle Produkte</a>
+          </div>
+        </div>
+            
+      </section>    
+    </main>
+    {{> footer }}
+    <script src="../js/mobile-menu.js"></script>
+  </body>
+</html>
