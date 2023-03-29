@@ -22,18 +22,20 @@
     {{> header-black }}
 
     <main>
-      <div class="detail-image">
-        <img src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica" class="detail-image__img">
-      </div>
-      
-      <section class="detail-info">
-        <div class="detail-info__text">
-          <h2 class="h2__m">Costa Rica</h2>
-          <p class="subhead__m--black">6,90€ - 26,90€</p>
-          <p class="body-text__m">Costa Rica Filterkaffee ist äußerst ergiebig und hat praktisch keine Säure. Den Gaumen umschmeichelt ein vollmundiges Haselnussaroma. Gleich probieren!</p>
-
+      <article class="shop-detail">
+        <div class="detail-image">
+          <img src="../images/FEND_Coffee_Costa-Rica-2.png" alt="Kaffee aus Costa Rica" class="detail-image__img">
         </div>
-        </section>
+        
+        <section class="detail-info">
+          <div class="detail-info__text">
+            <h2 class="h2__m">Costa Rica</h2>
+            <p class="subhead__m--black">6,90€ - 26,90€</p>
+            <p class="body-text__m">Costa Rica Filterkaffee ist äußerst ergiebig und hat praktisch keine Säure. Den Gaumen umschmeichelt ein vollmundiges Haselnussaroma. Gleich probieren!</p>
+
+          </div>
+          </section>
+      </article>
         <section class="dd-btn">
           <div class="dd-shop">
             <select id="amount" required name="amount" placeholder="wie viel Kaffee brauchst Du?">
@@ -129,5 +131,6 @@
     </main>
     {{> footer }}
     <script src="../js/mobile-menu.js"></script>
+    <script src="../js/shop-detail.js"></script>
   </body>
 </html>
