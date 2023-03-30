@@ -23,7 +23,7 @@ async function getProductFromUrl() {
         <section class="detail-info">
           <div class="detail-info__text">
             <h2 class="h2__m">${product.productName}</h2>
-            <p class="subhead__m--black">${product.price}</p>
+            <p class="subhead__m--black">${((product.price / 100).toFixed(2)) +(" €") }</p>
           </div>
         </section>
         <section class="dd-btn">
