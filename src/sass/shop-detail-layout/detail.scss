@@ -1,3 +1,9 @@
+.shop-detail {
+    @media (min-width: 992px) {
+        margin: 100px;
+    }
+}
+
 .detail-image {
     height: 70vh;
     background-color: #d7be9d;
@@ -9,15 +15,36 @@
     align-items: center;
 
     @media (min-width: 992px) {
-        width: 50%;
+        width: 40%;
+        height: 100vh;
     }
 
     &__img {
         height: 90%;
         margin-top: 20px;
         margin-bottom: 20px;
+        @media (min-width: 992px) {
+            height: 80%;
+        }
 
     }
+}
+
+.detail-main {
+
+
+    @media (min-width: 992px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.detail-textblock {
+
+    @media (min-width: 992px) {
+        width: 50%;
+    }
+
 }
 
 .detail-info {
@@ -27,6 +54,10 @@
     margin-right: 20px;
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 992px) {
+        margin-top: 15px;
+    }
 
     &__text {
 
@@ -41,6 +72,14 @@
     }
 }
 
+.short-desc {
+
+    @media (min-width: 992px) {
+        width: 80%;
+    }
+
+}
+
 .dd-btn {
     margin-top: 45px;
     margin-left: 20px;
@@ -48,7 +87,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    
+    @media (min-width: 992px) {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 0;
+
+    }
+}
+
+.dd-shop {
+    @media (min-width: 992px) {
+        margin-right: 10px;
+    }
 }
 
 #amount {
@@ -56,10 +108,18 @@
     height: 45px;
     border-radius: 3px;
     border: 2px solid #000;
+
+    @media (min-width: 992px) {
+        width: 170px;
+    }
 }
 
 .btn-shop {
     margin-top: 35px;
+
+    @media (min-width: 992px) {
+        margin-top: 40px;
+    }
 }
 
 .icons-shop {
@@ -97,6 +157,13 @@
     margin-top: 45px;
     margin-left: 20px;
     margin-right: 20px;
+
+    @media (min-width: 992px) {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 
     .h3__m {
         margin-bottom: 20px;
