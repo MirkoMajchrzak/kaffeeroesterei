@@ -1,4 +1,5 @@
 const appContainer = document.querySelector(".shop-detail");
+let basket = [];
 // load everything into this classnamed container
 async function getProductFromUrl() {
     // fetch all products from json
@@ -42,7 +43,7 @@ async function getProductFromUrl() {
             </select>
             </div>
             <div class="btn-shop">
-              <input type="submit" id="sendbutton"  value="In den Warenkorb">
+              <input type="submit" onclick="add(${product.id})" class="sendbutton" value="In den Warenkorb">
             </div>
           </div>
 
@@ -73,3 +74,21 @@ async function getProductFromUrl() {
 };
 
 getProductFromUrl();
+
+let add = (productId) => {
+  let selectedItem = productId;
+  let search = basket.find((x)=> x.productId === selectedItem.id);
+
+  if(search === undefined) {
+  basket.push({
+    id: productId,
+    item: 1,
+  });
+}
+else{
+  search.item += 1;
+}
+
+  console.log(basket);
+};
+
