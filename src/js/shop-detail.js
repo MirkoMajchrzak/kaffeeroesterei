@@ -92,3 +92,6 @@ else{
   console.log(basket);
 };
 
+let calculation = () => {
+
+};
