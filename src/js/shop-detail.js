@@ -1,5 +1,6 @@
 const appContainer = document.querySelector(".shop-detail");
 let basket = [];
+
 // load everything into this classnamed container
 async function getProductFromUrl() {
     // fetch all products from json
@@ -90,8 +91,15 @@ else{
 }
 
   console.log(basket);
+  update();
+};
+let update = (productId) => {
+  console.log(productId);
+  calculation ();
 };
 
 let calculation = () => {
-
+  let cartIcon = document.getElementById("cartcount");
+  cartIcon.innerHTML = basket.map ((x) => x.item).reduce((x,y) => x + y, 0);
 };
+
