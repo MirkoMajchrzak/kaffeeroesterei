@@ -90,8 +90,9 @@ else{
   search.item += 1;
 }
 
-  console.log(basket);
-  update();
+  //console.log(basket);
+  localStorage.setItem("data", JSON.stringify(basket));
+  update(selectedItem.id);
 };
 let update = (productId) => {
   console.log(productId);
